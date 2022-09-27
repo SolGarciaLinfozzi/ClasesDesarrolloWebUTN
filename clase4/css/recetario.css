@@ -1,0 +1,15 @@
+body{       /*  SELECTOR GLOBAL */
+    background: rgb(240, 240, 191);
+}
+
+h2{     /*  SELECTOR GLOBAL */
+    color:brown
+}
+
+.titulo2{      /* SELECTOR DE CLASE  */
+    color:blue
+}
+
+#titulo3{
+    color:rgb(145, 18, 145)
+}

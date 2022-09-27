@@ -1,33 +1,12 @@
- <!DOCTYPE html> <!-- tipo de documento de archivo: HTML -->
-
-
-<html lang="en">   
-<!--  ^^^^^^^^^^ 
-      atributos (etiqueta lenguaje por defecto en ingles)
--->
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">  <!-- UTF-8: Sistema de tipografia -->
-    
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- compatibilidad con httml y IE=edge -->
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Trata de adaptar la pagina en cualquier dispositivo del usuario -->
-    
-    <link rel="stylesheet" href="./css/style.css">
-
-    <title> Thermomix - Argentina </title>  <!-- Título -->
- 
-    <!-- NO RECOMENDADO, UTILIZAR CSS DENTRO DE HTML CON LA ETIQUETA <style> --> */
-    <style> 
-        /* selector {propiedad : valor}  REGLA DE STYLO DE CSS */
-        
-        body{  /* selector GLOBAL */
-            background:rgb(77, 245, 77) ; 
-        }
-    </style>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conocé más</title>
 </head>
-<body> <!-- Contenico de la página -->
+<body> <!-- Contenico de la página - lo ve el USUARIO-->
     
     <header>
         
@@ -39,18 +18,18 @@
         
             <ul>
                 <li>  <!-- Item List -->
-                    <a href="./index.html">  
+                    <a href="../index.html">  <!-- ancla (hipervínculo)-->
                         Inicio
                     </a>
                 </li>
                 <li>  <!-- Item List -->
-                    <a href="./pages/Recetario.html">  
+                    <a href="./Recetario.html">  
                         Recetario
                     </a>
                 </li>
     
                 <li>
-                    <a href="./pages/Contacto.html"> 
+                    <a href="./Contacto.html"> 
                         Contacto
                     </a>
                 </li>
@@ -64,12 +43,7 @@
 
         <hr>
  
-        <h2 style="color:rgb(224, 33, 224)"> Reinventamos la forma de cocinar (in line) </h2> <!-- estilos in line NO RECOMENDADO-->
-        <h4> Un dispositivo con posibilidades infinitas (link archivo externo) </h4> <!-- Linkeado desde un archivo externo (style.css) -->
-
-        <figure> 
-            <img height="300" src="https://thermomixargentina.com/wp-content/uploads/2022/02/TM6-1024x1024.png" alt="Logo Thermomix"> 
-        </figure>
+        <h2> Thermomix TM6 conocé a tu ayudante de cocina inteligente </h2>
 
         <hr>
 
@@ -77,88 +51,37 @@
 
             <article> 
 
-                <h2> Conocé a tu asistente de cocina </h2>
-    
-                <figure> 
-                    <img height="400" src="https://statics.forbesargentina.com/2022/04/crop/625306264ac14__822x822.webp" alt= "Thermomix"> 
-                    <figcaption>
-                        Imagen ilustrativa
-                    </figcaption>
-                </figure>
+                <h4>  Una nuevageneración culinaria </h4>
 
-                <p> 
-                    Thermomix® TM6® es el dispositivo de cocina que lo hace todo sin importar que tan difícil sea el reto. 
-                    Ya sea que quieras darle un sabor distinto a tus comidas, o simplemente quieras recuperar tiempo con tu familia, 
-                    Thermomix® TM6® es un dispositivo inteligente autónomo que te quita las tareas de encima al manejar las partes
-                    tediosas o complejas de cocinar, ya que todo lo hace por ti. Desde la planificación de las comidas hasta la compra
-                    de ingredientes, pasando por cada proceso de preparación e incluso la limpieza. TM6® te respalda para que puedas 
-                    crear la comida perfecta en todo momento.
-                </p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/4OavkmWv170" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-                <ul id="ConoceMas">
-                    <li>  <!-- Item List -->
-                        <a href="./pages/ConoceMas.html">  <!-- ancla (hipervínculo)-->
-                            CONOCÉ MÁS
-                        </a>
-                    </li>
-                </ul>
-
-            <hr>
+                <hr>
 
             </article> 
 
-            <article>
-                
-                <img height="100" src="./img/TM_Tiempo.png" alt= "Tiempo">
+            <article> 
 
-                <h3>
-                    Ahorrá tiempo
-                </h3>
-                <p> 
-                    Thermomix® elimina el esfuerzo de cocinar, desde la planificación de tus comidas semanales hasta la finalización 
-                    de las mismas, regalándote más tiempo para disfrutarlo con tu familia y amigos.
-                </p>
+                <h4>  ¿Qué hay en la caja? </h4>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/XzqlKDY8KdU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                 <hr>
 
-                <img height="100" src="./img/TM_Saludable.png" alt= "Saludable">
+            </article> 
+            <article> 
 
-                <h3>
-                    Saludable
-                </h3>
-                <p> 
-                    Con la variedad de recetas de Thermomix® evitarás el consumo de la comida nociva,  y podrás cocinar sin conservantes
-                     ó aditivos y menos azúcar. Cocina acorde a tu estilo de vida de una manera sencilla.
-                </p>
+                <h4>  Accesorios </h4>
 
-                <hr>
+                <figure> 
+                    <img height="1000" src="https://www.thermomix.mx/wp-content/uploads/2021/05/TM6_explotdd-large_MX.png" alt="Accesorios Thermomix"> 
+                </figure>
 
-                <img height="100" src="./img/TM_Facil.png" alt= "Fácil">
-
-                <h3>
-                    Fácil
-                </h3>
-                <p> 
-                    Con sus instrucciones en pantalla Thermomix® te lleva al final de la receta paso a paso y te brinda consejos y trucos
-                     para cocinar aún más facilmente. Y además, ¡Cada receta será un éxito!
-                </p>
-
-                <hr>
-
-                <img height="100" src="./img/TM_Utilidad.png" alt= "Utilidad">
-
-                <h3>
-                    Utilidad diaria
-                </h3>
-                <p> 
-                    TM6® es tu asistente de cocina de todos los días. Ya sea que estés preparando un batido para vos o preparando una 
-                    cena elaborada para muchos, cada día es más fácil con Thermomix®. 
-                </p>
-                    
-            </article>
+            </article> 
 
         </section>
+
         <hr>
+    
         </main>
 
         <footer> 
@@ -178,4 +101,3 @@
      
 </body>
 </html>
-
