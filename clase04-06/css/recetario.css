@@ -1,8 +1,8 @@
-body{       /*  SELECTOR GLOBAL */
+body{       /*  SELECTOR GLOBAL para todo el body*/
     background: rgb(240, 240, 191);
 }
 
-h2{     /*  SELECTOR GLOBAL */
+h2{     /*  SELECTOR GLOBAL para todos los títulos h2*/
     color:brown
 }
 
@@ -10,6 +10,6 @@ h2{     /*  SELECTOR GLOBAL */
     color:blue
 }
 
-#titulo3{
+#titulo3{   /* ID  */
     color:rgb(145, 18, 145)
 }

@@ -1,0 +1,52 @@
+h4{
+    color:green
+}
+
+h2{
+    background: pink;
+    font-family: Rubik Dirt;
+    /* font-family: ;  COPIO EL LINK DE GOOGLE FONT */
+}
+
+header{
+    background:white;
+}
+
+.titulo1{
+    /* Margen */
+    margin-top: 50px;
+    margin-left: 500px;
+}
+
+.tipoTituloPrincipal{
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;   /* Tamaño de la letra */
+}
+
+.parrafo{
+
+    /* Bordes */
+    border-right: 8px dashed black;
+    /*            ^^^  ^^^^^  ^^^^^^^
+              tamaño   estilo   color            */
+    border-left: 7px double black;
+    border-top: 5px solid black;
+    border-bottom: 12px dotted black;
+
+    /* Relleno */
+    padding-top: 30px; 
+    padding-bottom: 30px;
+
+}
+
+/* img{
+    width: 600px;
+    height: 300px;
+} */
+
+.padre{
+    text-align:center;
+    background: rgb(86, 196, 86);
+}
+
