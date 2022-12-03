@@ -1,0 +1,12 @@
+{
+  "name": "clase12",
+  "version": "1.0.0",
+  "description": "Mi primer programa de backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "sol",
+  "license": "ISC"
+}

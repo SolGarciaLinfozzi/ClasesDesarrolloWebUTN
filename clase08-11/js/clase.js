@@ -35,12 +35,15 @@ console.log(frutas)
 console.log("El contenido de la posicion 1 del array frutas es: " + frutas[1])
 console.log(`El contenido de la posicion 0 del array frutas es: ${frutas[0]}`)
 
+frutas.push("choclo") // introducir datos al array
+
 console.log(`La cantidad de elementos del array frutas es: ${frutas.length}`)
+
 
 console.log("-----------------------")
 // --------------------
 
-//Objetos
+//Objetos - JSON
 
 let pais = {
     nombrePais: "Argentina",
@@ -48,7 +51,11 @@ let pais = {
     continente: "América del Sur"
 }
 
-console.log(pais)
+console.log( pais)
 
-console.log(`El nombre del país es: ${pais.nombrePais}`)
+console.log(`El nombre del país del objeto es: ${pais.nombrePais}`)
+
+console.log("-----------------------")
+// --------------------
+
 

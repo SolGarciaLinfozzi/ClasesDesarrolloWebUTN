@@ -1,0 +1,39 @@
+/*    MEDIA QUERIES  
+
+estilos dependiendo del tamaño de la pantalla    */
+
+@media (min-width: 576px) {
+    body{
+        background: #8E44AD;
+    }
+}
+@media (min-width: 768px) {
+    body{
+        background: #2A16C6;
+    }
+}
+@media (min-width: 992px) {
+    body{
+        background: #620707;
+    }
+}
+@media (min-width: 1200px) {
+    body{
+        background: #107005;
+    }
+}
+@media (min-width: 1400px) {
+    body{
+        background: #076D5C;
+    }
+}
+
+/*  */
+
+body{
+text-align: center;
+}
+
+.container{
+    margin-top: 45px;
+}
