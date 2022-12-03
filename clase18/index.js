@@ -59,10 +59,19 @@ app.get('/formulario', (req, res) => {
 
 //Rutas de las peticiones
 app.get('/productos', (req, res) => {
-    res.render('productos',{
-        titulo: 'productos'
-    }) 
+
+    let sql = "select * from producto";            //LEO DATOS DE LA TABLA PRODUCTOS
+        conexion.query(sql, function(err, result){
+            if (err) throw err;
+                res.render('productos',{
+                    titulo: 'productos',
+                    datos: result    //le paso los datos de la tabla
+                }) 
+        })
+
 })
+
+
 
 app.get('/contacto', (req, res) => {
     res.render('contacto', {
