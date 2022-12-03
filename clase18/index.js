@@ -1,5 +1,5 @@
 //CONTROLADOR
-
+//debemos comentar todos los console log para el deploy
 
 const express = require('express') 
 const app = express()
